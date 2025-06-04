@@ -2,7 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Verses */
-
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -18,8 +17,11 @@
 	display: none;
 }
 
-/* Hymns */
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
 
+/* Hymns */
 [epub|type~="z3998:hymn"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -36,14 +38,12 @@
 }
 
 /* Verses and Hymns */
-
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
 
 /* Letters */
-
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }
@@ -67,4 +67,30 @@ footer{
 	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
+}
+
+/* Epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+
+/* Epigraphs in section headers */
+header [epub|type~="epigraph"] cite{
+	font-variant: small-caps;
 }

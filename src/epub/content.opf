@@ -47,7 +47,7 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">An opinionated, young woman seeks to prove her cleverness and searches for a purpose in life.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Unsatisfied with the rigid gender-roles of her small, sea-side community, Rachel Curtis yearns to use her cleverness to find a purpose in life. Seeking to make the world a better place for women, she dives into intellectual battles, writing opinionated articles, and dreaming of liberating oppressed women from lace-making and marriage. Foiled to her are Lady Temple: a widow with an army of small children; and Miss. Williams: a young woman left deformed and scarred by a horrible accident in her youth. Through her small community and an opportunity to make her dreams come true, Rachel’s true cleverness will be opposed, tried, and tested, making her more deeply consider: is she truly the Clever Woman of the Family?&lt;/p&gt;
+			&lt;p&gt;Unsatisfied with the rigid gender-roles of her small, sea-side community, Rachel Curtis yearns to use her cleverness to find a purpose in life. Seeking to make the world a better place for women, she dives into intellectual battles, writing opinionated articles, and dreaming of liberating oppressed women from lace-making and marriage. Acting as her foils are Lady Temple: a widow with an army of small children; and Miss Williams: a young woman left deformed and scarred by a horrible accident in her youth. Through her small community and an opportunity to make her dreams come true, Rachel’s true cleverness will be opposed, tried, and tested, making her more deeply consider: is she truly the clever woman of the family?&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3292</dc:source>
@@ -58,11 +58,12 @@
 		<dc:creator id="author">Charlotte M. Yonge</dc:creator>
 		<meta property="file-as" refines="#author">Yonge, Charlotte M.</meta>
 		<meta property="se:name.person.full-name" refines="#author">Charlotte Mary Yonge</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charlotte_M._Yonge</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charlotte_Mary_Yonge</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50014041.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">Claude Monet</dc:contributor>
+		<dc:contributor id="artist">Oscar-Claude Mone</dc:contributor>
 		<meta property="file-as" refines="#artist">Monet, Claude</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Charlotte Mary Yonge</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Claude_Monet</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79055527.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>

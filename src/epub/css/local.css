@@ -1,46 +1,34 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* Verses */
-[epub|type~="z3998:verse"] p{
-	text-align: initial;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:verse"] p > span{
-	display: block;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-[epub|type~="z3998:verse"] p > span + br{
-	display: none;
-}
-
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
-/* Hymns */
+/* Verses and Hymns */
+[epub|type~="z3998:verse"]
 [epub|type~="z3998:hymn"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:verse"]
 [epub|type~="z3998:hymn"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
+[epub|type~="z3998:verse"]
 [epub|type~="z3998:hymn"] p > span + br{
 	display: none;
 }
 
-/* Verses and Hymns */
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
+}
+
+/* Verses */
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
 }
 
 /* Letters */
@@ -67,6 +55,15 @@ footer{
 	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
+}
+
+/* Italicize Dateline */
+[epub|type~="se:letter.dateline"] time{
+	font-style: italic;
+}
+
+#chapter-29 [epub|type~="se:letter.dateline"]{
+	font-style: italic;
 }
 
 /* Epigraphs */

@@ -26,7 +26,6 @@ p span.i1{
 }
 
 /* Verses */
-
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
